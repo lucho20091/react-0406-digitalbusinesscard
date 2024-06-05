@@ -7,7 +7,7 @@ export default function Info(){
             <h2 className="ComponentTop__H2">Frontend Developer</h2>
             <p className="ComponentTop__P">luismora.website</p>
             <a className="ComponentTop__Button-1" href="mailto:someone@example.com">Email</a>
-            <button className="ComponentTop__Button-2">Linkedin</button>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com"className="ComponentTop__Button-2">Linkedin</a>
         </header>
     )
 }
