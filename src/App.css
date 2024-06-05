@@ -1,0 +1,118 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.App{
+  width: 317px;
+  background: #1A1B21;
+  border-radius: 10px 10px 10px 10px;
+}
+/* Component Top */
+.ComponentTop{
+  text-align: center;
+  color: white;
+}
+
+.ComponentTop__Img{
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.ComponentTop__H1{
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 21px auto 7px;
+  font-weight: 700;
+}
+
+.ComponentTop__H2{
+  margin: 0;
+  font-size: 12px;
+  color: #F3BF99;
+  font-weight: 400;
+}
+.ComponentTop__P{ 
+  margin: 8px auto 0;
+  font-size: 10px;
+  font-weight: 400;
+}
+.ComponentTop__Button-1,
+.ComponentTop__Button-2{
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  margin: 15px 0 16px;
+  cursor: pointer;
+}
+
+.ComponentTop__Button-1{
+  background: #FFF;
+  color:#374151;
+  margin-right: 17px;
+}
+.ComponentTop__Button-2{
+  background: #5093E2;
+  color:#FFF;
+}
+/* Component About */
+.ComponentAbout{
+  margin: 0 34px 0 36px;
+}
+.ComponentAbout__H2{
+  margin: 0;
+  padding: 16px 0 0;
+  font-size: 16px;
+  color: #F5F5F5;
+  font-weight: 700;
+}
+.ComponentAbout__P{
+  color: #DCDCDC;
+  font-size: 10px;
+  margin: 5px 0 0;
+}
+/* Component Interest */
+.ComponentInterest{
+  margin: 0 34px 0 36px;
+}
+.ComponentInterest__H2{
+  font-size: 16px;
+  color: #F5F5F5;
+  font-weight: 700;
+}
+.ComponentInterest_P{
+  font-size: 10px;
+  color: #DCDCDC;
+  padding: 0 0 24px;
+}
+/* Component Footer */
+.ComponentFooter{
+  color: white;
+  height: 64px;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+
+}
+.ComponentFooter__Icons{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 25px;
+}
+.ComponentFooter__Twitter,
+.ComponentFooter__Facebook,
+.ComponentFooter__Instagram,
+.ComponentFooter__Github{
+  cursor: pointer;
+}
