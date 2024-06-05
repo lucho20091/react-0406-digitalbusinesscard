@@ -5,7 +5,7 @@ export default function Footer(){
     return (
         <footer className="ComponentFooter">
             <div className="ComponentFooter__Icons">
-                <FontAwesomeIcon className="ComponentFooter__Twitter" icon={faSquareTwitter} />
+                <a href="twitter.com"><FontAwesomeIcon className="ComponentFooter__Twitter" icon={faSquareTwitter} /></a>
                 <FontAwesomeIcon className="ComponentFooter__Facebook" icon={faSquareFacebook} />
                 <FontAwesomeIcon className="ComponentFooter__Instagram" icon={faSquareInstagram} />
                 <FontAwesomeIcon className="ComponentFooter__Github" icon={faSquareGithub} />
