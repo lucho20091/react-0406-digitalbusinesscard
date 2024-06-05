@@ -6,9 +6,9 @@ export default function Footer(){
         <footer className="ComponentFooter">
             <div className="ComponentFooter__Icons">
                 <a href="twitter.com"><FontAwesomeIcon className="ComponentFooter__Twitter" icon={faSquareTwitter} /></a>
-                <FontAwesomeIcon className="ComponentFooter__Facebook" icon={faSquareFacebook} />
-                <FontAwesomeIcon className="ComponentFooter__Instagram" icon={faSquareInstagram} />
-                <FontAwesomeIcon className="ComponentFooter__Github" icon={faSquareGithub} />
+                <a href="facebook.com"><FontAwesomeIcon className="ComponentFooter__Facebook" icon={faSquareFacebook} /></a>
+                <a href="instagram.com"><FontAwesomeIcon className="ComponentFooter__Instagram" icon={faSquareInstagram} /></a>
+                <a href="github.com"><FontAwesomeIcon className="ComponentFooter__Github" icon={faSquareGithub} /></a>
             </div>
         </footer>
     )
