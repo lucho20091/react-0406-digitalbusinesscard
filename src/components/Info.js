@@ -6,7 +6,7 @@ export default function Info(){
             <h1 className="ComponentTop__H1">Luis Mora</h1>
             <h2 className="ComponentTop__H2">Frontend Developer</h2>
             <p className="ComponentTop__P">luismora.website</p>
-            <button className="ComponentTop__Button-1">Email</button>
+            <button className="ComponentTop__Button-1" href="mailto:someone@example.com">Email</button>
             <button className="ComponentTop__Button-2">Linkedin</button>
         </header>
     )
